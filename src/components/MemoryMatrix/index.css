@@ -1,0 +1,65 @@
+.memory-matrix-container {
+  background-color: #1a202c;
+  background-size: cover;
+  height: 200vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.game-heading {
+  font-family: 'Bree serif';
+  text-align: center;
+  padding-top: 7%;
+  font-weight: 500;
+  font-size: 38px;
+}
+.level-container {
+  display: flex;
+  justify-content: space-between;
+  width: 376px;
+  margin-top: 20px;
+}
+.level {
+  font-family: 'Bree serif';
+  font-size: 19px;
+  text-align: center;
+}
+.game-container {
+  display: flex;
+  width: 376px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.button {
+  min-width: 100px;
+  margin: 5px;
+  min-height: 100px;
+  background-color: #cbd5e1;
+  border-width: 0px;
+}
+.selected {
+  background-color: yellow;
+}
+.highlight.button {
+  background-color: rgb(226, 226, 14);
+}
+.game-rules-container {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  padding: 9px;
+}
+.back-button {
+  font-family: 'italic';
+}
+.rules-button {
+  background-color: transparent;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  height: 50px;
+  width: 90px;
+  border-radius: 5px;
+  font-family: 'Bree serif';
+  font-size: 17px;
+}

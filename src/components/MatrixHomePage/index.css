@@ -1,0 +1,62 @@
+.matrix-home-page {
+  background-color: #1a202c;
+  background-size: cover;
+  color: #ffffff;
+  height: 120vh;
+  display: flex;
+  flex-direction: column;
+}
+.game-heading {
+  font-family: 'Bree serif';
+  text-align: center;
+  padding-top: 3%;
+  font-weight: 500;
+  font-size: 38px;
+}
+.image {
+  width: 20%;
+  align-self: center;
+}
+.rules {
+  font-family: 'Bree serif';
+  font-weight: 500;
+  margin-left: 10%;
+  font-size: 19px;
+}
+.rules-list-container {
+  font-family: 'Bree serif';
+  margin-left: 10%;
+  width: 50%;
+}
+.start-button {
+  width: 100px;
+  height: 39px;
+  background-color: #467aff;
+  color: #ffffff;
+  font-family: 'Bree serif';
+  border-width: 0px;
+  border-radius: 5px;
+  margin-left: 10%;
+}
+.back {
+  font-family: 'Bree serif';
+  font-size: 15px;
+}
+.back-icon {
+  display: flex;
+  align-items: center;
+  margin-left: 10%;
+  padding: 5px;
+}
+.icon {
+  padding: 5px;
+  font-size: 30px;
+}
+.back-button {
+  width: 100px;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  color: #ffffff;
+  border-width: 0px;
+}

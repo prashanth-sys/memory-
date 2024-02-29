@@ -1,0 +1,54 @@
+.home-container {
+  background-image: linear-gradient(to right, #834d9b, #d04ed6);
+  background-size: cover;
+  height: 100vh;
+  padding: 9px;
+}
+.games-heading {
+  font-family: 'Roboto';
+  color: #ffffff;
+  text-align: center;
+}
+.game-card-container {
+  background-color: #ffffff;
+  height: 39%;
+  width: 40%;
+  border-radius: 9px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 9px;
+}
+.emoji {
+  width: 40%;
+}
+.emoji-name {
+  font-family: 'Roboto';
+  color: #334155;
+  font-size: 25px;
+}
+.card-show-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px;
+  justify-content: center;
+}
+.memory {
+  width: 45%;
+}
+.rock {
+  width: 37%;
+}
+.flip {
+  width: 62%;
+}
+.memory-name {
+  font-family: 'Bree serif';
+  color: #334155;
+  font-size: 25px;
+  font-weight: 500;
+}
+.link {
+  text-decoration: none;
+}
